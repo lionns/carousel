@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel</title>
+    <link
+      rel="shortcut icon"
+      href="./assets/icons/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="carousel">
+        <div class="controls">
+          <div class="control-box left_arrow">
+            <i data-feather="chevron-left"></i>
+          </div>
+          <div class="control-box right_arrow">
+            <i data-feather="chevron-right"></i>
+          </div>
+        </div>
+        <div class="carousel_container">
+          <div class="img img-1" id="firstNode">
+            <img src="./assets/images/carouser-5.jpg" alt="" />
+          </div>
+          <div class="img img-1">
+            <img src="./assets/images/carouser-1.jpg" alt="" />
+          </div>
+          <div class="img img-2">
+            <img src="./assets/images/carousel-2.jpg" alt="" />
+          </div>
+          <div class="img img-3">
+            <img src="./assets/images/carousel-3.jpg" alt="" />
+          </div>
+          <div class="img img-4">
+            <img src="./assets/images/carousel-4.jpg" alt="" />
+          </div>
+          <div class="img img-5">
+            <img src="./assets/images/carouser-5.jpg" alt="" />
+          </div>
+          <div class="img img-5" id="lastNode">
+            <img src="./assets/images/carouser-1.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
